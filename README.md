@@ -9,6 +9,7 @@
 - High accuracy on structured and hand-drawn tables
 
 # Install dependencies
+python=3.10
 pip install -r requirements.txt
 ```
 
