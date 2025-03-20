@@ -103,6 +103,6 @@ for j in range(tabelhead):
             sheet.cell(row=k+1, column=j+1).value = table_dates[j][k]
 workbook.save("img/demo.xlsx")
 end_time = time.time()
-# 计算并打印运行时间
+
 elapsed_time = end_time - start_time
 print(f"Code Runtime：{elapsed_time}s")
